@@ -11,9 +11,9 @@ console.log(randomName);
 choose.addEventListener('click',function () {
     let guess=input.value
     if (guess===randomName) {
-        result.textContent='congratulations you earnt a gift from us'
+        alert('congratulations you earnt a gift from us')
     }else{
-        result.textContent='try your luck again'
+        alert('try your luck again')
     }
 })
 
